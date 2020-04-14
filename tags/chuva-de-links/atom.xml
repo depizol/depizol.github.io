@@ -1,41 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
-  <channel>
-    <title>depizol.org - Blog</title>
-    <description><![CDATA[Ilustrador e Designer Gráfico formado pela UEL. Vive em Pato Branco (PR) com sua namorada, dois adolescentes e um punhado de bichos.]]></description>
-    <lastBuildDate>2020-04-13T20:04:00-03:00</lastBuildDate>
-    <link>/blog/</link>
-    <item>
-      <guid>/blog/como-as-paradas-funcionam/</guid>
-      <title>Como diabos isso aqui funciona?</title>
-      <description><![CDATA[<p>Olá, no post anterior falei sobre algumas das minhas motivações para colocar site de pé, nesse post vou falar um pouco da parte técnica, sobre as &quot;tecnologias&quot; que utilizei para fazer esse negócio funcionar. Não é necessariamente um tutorial, mas acredito que tem um punhado de coisas que podem ser úteis em conjunto ou separadamente.</p>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>/tags/chuva-de-links/</id>
+  <title>depizol.org - chuva de links</title>
+  <subtitle><![CDATA[Ilustrador e Designer Gráfico formado pela UEL. Vive em Pato Branco (PR) com sua namorada, dois adolescentes e um punhado de bichos.]]></subtitle>
+  <link href="/tags/chuva-de-links/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="/tags/chuva-de-links/" rel="alternate" type="text/html" />
+  <updated>2020-04-13T20:04:00-03:00</updated>
+  <author>
+    <name>Alisson Depizol</name>
+    <uri>https://depizol.org</uri>
+  </author>
+  <entry xml:lang="en">
+    <id>/blog/como-as-paradas-funcionam/</id>
+    <title>Como diabos isso aqui funciona?</title>
+    <content type="html">
+      <![CDATA[<p>Olá, no post anterior falei sobre algumas das minhas motivações para colocar site de pé, nesse post vou falar um pouco da parte técnica, sobre as &quot;tecnologias&quot; que utilizei para fazer esse negócio funcionar. Não é necessariamente um tutorial, mas acredito que tem um punhado de coisas que podem ser úteis em conjunto ou separadamente.</p>
 <!-- excerpt -->
 <p>Antes de começar o blablablá técnico gostaria de esclarecer que, apesar de achar essa área de desenvolvimento o máximo, sou um <strong>designer gráfico</strong> e o que se segue são as opiniões e impressões de um leigo. Sei que a coisa já começa estranha quando se pensa em tocar um blog pessoal em pleno 2020, os gurus da escalada profissional costumam dizer que o lance é manter os perfis em redes sociais impecáveis, assépticos, emulando o máximo possível de autenticidade sem com isso porém tornar sua presença pessoal demais. Sei lá, me parece tedioso, saca essa tentativa desesperada de acompanhar tendências para tentar se destacar fazendo o mesmo que todo mundo. E isso não se aplica apenas à camada superficial. Sem querer entrar naquele papo de <a href="https://www.urbandictionary.com/define.php?term=Ok%20boomer">boomer</a> dizendo coisas como &quot;quando cheguei aqui isso tudo era mato&quot; ou &quot;fiz meu primeiro site no <a href="https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/HTML_basico">bloco de notas do Windows</a>&quot; mas as coisas estão muito simples hoje em dia e isso é muito bom. O que antes demandava horas ou dias de estudo hoje pode ser resolvido simplesmente preenchendo alguns campos no formulário de algum site. Eu poderia simplesmente ter pago uma hospedagem, customizado um tema do <a href="http://br.wordpress.org">Wordpress</a>, ter me inscrito no <a href="https://medium.com/tag/brasil">Medium</a> ou abraçado o <a href="https://ghost.org/">Ghost</a> e começado a escrever.</p>
 <p>Sei lá, poderia ter feito isso mas aí vem aquela coisa de ter vivido outro momento da mundo (ok boomer...), editei e consumi fanzines e esse foi um período muito rico em aprendizado na minha vida. Este blog é isso, uma espécie de fanzine só que ao invés de recortar fotos, tenho recortado código de outras pessoas. Em iterações anteriores do projeto havia optado por utilizar um CMS flat-file chamado <a href="https://getgrav.org/">Grav</a>, o sistema é bem legal, mas após alguns perrengues que me lembraram dos tempos de Wordpress resolvi seguir o conselho do meu bom amigo <a href="https://github.com/perna">Anderson Meira</a>, <a href="https://twitter.com/ThePerna">vulgo Perna</a>, e buscar um <a href="https://en.wikipedia.org/wiki/Web_template_system#Static_site_generators">gerador de sites estáticos</a>. Após um longo passeio pelo <a href="https://www.staticgen.com/">Static Gen</a>, uma série de comandos e alertas no terminal me deparei com o <a href="https://cecil.app/">Cecil</a>. Apesar de pouco conhecido, me surpreendi positivamente com o dito cujo. O aplicativo se mostrou bem simples de usar, ele basicamente converte os documentos escritos em <a href="https://pt.wikipedia.org/wiki/Markdown">Markdown</a> em páginas ou postagens e até aí nenhuma novidade, o que me interessou no projeto foi o fato dele ser desenvolvido em <a href="https://www.php.net/">PHP</a>, uma linguagem com a qual tenho certa familiaridade (não sei programar mas consigo remendar uma coisa ou outra), e utilizar o sistema de templates <a href="https://twig.symfony.com/">TWIG</a> o qual fui apresentado pelo Grav.</p>
 <p>Se naquela analogia com os fanzines o código é a foto recortada, o CSS é o meu traço. O tema desse blog é um trabalho criado do zero, sem o uso de nenhum framework. A minha idéia desde o começo foi construir um ambiente voltado ao conteúdo, sem distrações desnecessárias, de fácil manutenção e aplicando recursos que acho interessantes como <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Conceitos_Basicos_do_Flexbox">flexbox</a> e <a href="https://www.sitepoint.com/css-viewport-units-quick-start/">unidades de medida baseadas no tamanho da viewport</a>. A primeira parte só pode ser respondida por vocês a segunda acredito que descobrirei no processo. Esse blog é produto de uma vida ouvindo conselhos, lendo e observando o trabalho de muita gente, por isso o código fonte desse tema estará disponível no Github sob licença MIT em breve, para quem quiser estudar, modificar ou usar.
 Acho que por hoje é isso, fique ligado que mais cedo ou mais tarde aparece algo de novo por aqui.</p>
-<p>See you space cowboy.</p>]]></description>
-      <pubDate>2020-04-13T20:04:00-03:00</pubDate>
-      <link>/blog/como-as-paradas-funcionam/</link>
-    </item>
-    <item>
-      <guid>/blog/aquela-postagem-inicial/</guid>
-      <title>Aquela postagem inicial pra ver se tudo está funcionando</title>
-      <description><![CDATA[<p>Caramba, como é difícil escrever um post inicial. Havia me esquecido, após anos apenas reagindo a postagens, criticando políticos e escrevendo legendas para memes sinto que estou bem enferrujado. Esse blog é uma tentativa de tirar essa ferrugem. Aliás é uma tentativa de restaurar toda uma série se relações problemáticas, o típico blog pessoal para fazer as pazes consigo mesmo.  </p>
-<!-- excerpt -->
-<p>Sei que hoje não é de bom tom expor dificuldades e questões pessoais, os coaches, instagrammers e digital influencers por aí recomendam que todos sejam perfeitos, felizes, trabalhem enquanto todo mundo dorme, façam clareamento dental e elenquem apenas três coisas nos textos. Desculpe, não sou assim, mas nem por isso sou uma pessoa ruim ou menos apaixonada pelas minhas atividades.  </p>
-<p>Quando você digita amador no <a href="https://lmgtfy.com/?q=amador">Google</a> aparece isso:</p>
-<blockquote>
-<p>amador  </p>
-<ol>
-<li>frm. que ou o que ama; que ou o que tem amor a alguma pessoa; amante.</li>
-<li><strong>que ou aquele que gosta muito de alguma coisa; amante, apreciador, entusiasta.</strong></li>
-</ol>
-</blockquote>
-<p>Este blog é isso, um trabalho amador. Me encaixo nessa segunda definição, gosto de desenhar, gosto de saber como as coisas funcionam e, por mais que isso esteja fora de moda e meu temperamento em algumas ocasiões aponte o contrário, gosto das pessoas.</p>
-<p>Não sei se conseguirei fazer a minha parte de manter a internet alimentada de conteúdo que todo mundo compartilha sem ler mas pretendo manter esse espaço ativo e com postagens regulares. Aliás pretendo manter meus espaços ativos, na página de info você encontra links para meus perfis nas mais diversas redes, meu plano é subir quadrinhos uma vez por semana no velho e bom <a href="https://depizol.tumblr.com">Tumblr</a> e meu portfólio segue no <a href="https://www.behance.net/depizol">Behance</a> e é isso galera, buckle up and enjoy the ride.</p>]]></description>
-      <pubDate>2020-04-12T15:59:00-03:00</pubDate>
-      <link>/blog/aquela-postagem-inicial/</link>
-    </item>
-  </channel>
-</rss>
+<p>See you space cowboy.</p>]]>
+    </content>
+    <link href="/blog/como-as-paradas-funcionam/" rel="alternate" type="text/html" />
+    <published>2020-04-13T20:04:00-03:00</published>
+    <updated>2020-04-13T20:04:00-03:00</updated>
+  </entry>
+</feed>
