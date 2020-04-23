@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>/tags/processo/</id>
+  <title>depizol.org - processo</title>
+  <subtitle><![CDATA[Ilustrador e Designer Gráfico formado pela UEL. Vive em Pato Branco (PR) com sua namorada, dois adolescentes e um punhado de bichos.]]></subtitle>
+  <link href="/tags/processo/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="/tags/processo/" rel="alternate" type="text/html" />
+  <updated>2020-04-22T18:15:00-03:00</updated>
+  <author>
+    <name>Alisson Depizol</name>
+    <uri>https://depizol.org</uri>
+  </author>
+  <entry xml:lang="en">
+    <id>/blog/fun-fact/</id>
+    <title>Fun fact.</title>
+    <content type="html">
+      <![CDATA[<p>As imagens que ilustraram essas três primeiras postagens foram baseadas em fotos escolhidas aleatoriamente. Esse post serve para creditar os autores e mostrar as referências.</p>
+<!-- excerpt -->
+<p>Durante o desenvolvimento do site tive várias idéias para o visual, porém colocar isso em prática são outros quinhentos. É um processo trabalhoso cheio de idas e vindas, onde uma séries de ajustes são feitos na estrutura para conseguir conciliar o que o sistema processa com o que será exibido e para evitar me cansar de olhar para meus trabalhos utilizei algumas imagens do <a href="http://unsplash.com">Unsplash</a> durante essa fase.</p>
+<p>Acontece que tudo levou mais tempo do que eu esperava, projetos comerciais entraram, recesso de fim de ano (sou freela mas sou humano) e até mesmo troca de hardware atrasaram o desenvolvimento e o engraçado é que acabei me apegando a essas fotos. Depois de tanto tempo olhando para essas imagens, acho que nada seria mais justo que mantê-las no blog, como uma lembrança de todo esse processo.</p>
+<h2>Aquela postagem inicial pra ver se tudo está funcionando</h2>
+<p>A primeira postagem tinha um tom mais contemplativo, tinha essa questão da idade e acho que o senhor da foto ilustrou bem esse clima.</p>
+<p><img src="/images/rr-abrot-GlAaWOeoU_Q-unsplash.jpg" alt="" loading="lazy" /></p>
+<p><em>Foto por <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@rr_abrot?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from RR Abrot"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">RR Abrot</span></a></em></p>
+<h2>Como diabos isso aqui funciona?</h2>
+<p>Sou um grande fã de videogames antigos e acredito que manter um fliperama hoje em dia é um sinônimo de meter a mão na massa e aprender sobre coisas que você nunca esperava ter contato.</p>
+<p><img src="/images/ben-neale-zpxKdH_xNSI-unsplash.jpg" alt="" loading="lazy" /></p>
+<p><em>Foto por <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@ben_neale?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Ben Neale"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Ben Neale</span></a></em></p>
+<h2>Fun Fact, também conhecido como esse post</h2>
+<p>Esse lance de buscar material de referência sempre me remete a andar pelo centro da cidade procurando aquela loja que tem aquela coisa do jeito que eu queria.</p>
+<p><img src="/images/zoe-lin-BznkcpN8Wu0-unsplash.jpg" alt="" loading="lazy" /></p>
+<p><em>Foto por <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@orangezl?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from zoe lin"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">zoe lin</span></a></em></p>]]>
+    </content>
+    <link href="/blog/fun-fact/" rel="alternate" type="text/html" />
+    <published>2020-04-22T18:15:00-03:00</published>
+    <updated>2020-04-22T18:15:00-03:00</updated>
+  </entry>
+</feed>
