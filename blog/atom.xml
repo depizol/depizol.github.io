@@ -5,11 +5,26 @@
   <subtitle><![CDATA[Ilustrador e Designer Gráfico formado pela UEL. Vive em Pato Branco (PR) com sua namorada, dois adolescentes e um punhado de bichos.]]></subtitle>
   <link href="/blog/atom.xml" rel="self" type="application/atom+xml" />
   <link href="/blog/" rel="alternate" type="text/html" />
-  <updated>2020-04-22T18:15:00-03:00</updated>
+  <updated>2020-05-06T11:38:00-03:00</updated>
   <author>
     <name>Alisson Depizol</name>
     <uri>https://depizol.org</uri>
   </author>
+  <entry xml:lang="en">
+    <id>/blog/tudo-muda/</id>
+    <title>Tudo muda, até bermuda.</title>
+    <content type="html">
+      <![CDATA[<p>Estamos em obras novamente.</p>
+<!-- excerpt -->
+<p>Pois é, rolou um hiato na semana passada e acabei saindo da programação. Quando optei por um gerador de sites estáticos estava buscando entregar uma página que fosse a mais rápida possível para o usuário, porém acabei negligenciando o outro lado da moeda.</p>
+<p>Subir um post se tornou um processo bem chato - e não estou me referindo a escrever em Markdown em um editor de <a href="https://pt.wikipedia.org/wiki/Editor_de_texto#Arquivos_de_texto_plano_X_Arquivos_de_processador_de_texto">texto plano</a>, acho isso bem legal inclusive. Nesse curto período percebi que esse processo não funciona para mim porque dependo do <a href="https://pt.wikipedia.org/wiki/Git">git</a> para subir os arquivos, o <a href="https://cecil.app/">gerador de site que escolhi</a> utilizar sobrescreve tudo no diretório de saída a cada atualização, inclusive o arquivo <a href="https://support.google.com/a/answer/112037?hl=pt-BR">CNAME</a> que, teoricamente, deveria residir apenas no <a href="https://pages.github.com/">Github Pages</a>, mas insiste em ser apagado mesmo constando no <em>gitignore</em>. Somado a isso, tem o fato de que fiquei preso a um computador específico para poder atualizar o site ou ter que configurar todo a parafernália em cada dispositivo que eu pretenda usar. Não posso, por exemplo, postar algo do tablet enquanto estiver na frente da TV ou do celular enquanto estiver na rua, se bem que nesse momento pandêmico isso não é uma possibilidade mesmo...</p>
+<p>Nesse meio tempo apareceram alguns projetos que têm demandado tempo e logo logo apresentarei por aqui, estou tentando desesperadamente voltar a desenhar quadrinhos, a Mariana e eu estamos tentando nos adaptar ao ritmo de vida com todo mundo em casa e a impossibilidade de fazer a mesma coisa por mais de 40 minutos consecutivos. Por enquanto acho que o ritmo de postagens vai continuar um pouco lento, mas fiquem de olho que nas próximas semanas as coisas voltarão a funcionar como deveriam.</p>
+<p>Enquanto isso, tem três estampas novas na minha collab com meus amigos da <a href="https://www.stripme.com.br/collabs/depizol">Strip Me</a> e tenho postado vídeos juntando o timelapse dos meus desenhos a músicas (preferencialmente de projetos de amigos) no meu canal do <a href="https://www.youtube.com/c/AlissonDepizol">YouTube</a>. É algo ainda em desenvolvimento, mas tem saído material pelo menos duas vezes por semana. Quem curtir, por favor se inscreva e fiquem espertos que vem mais coisa por aí!</p>]]>
+    </content>
+    <link href="/blog/tudo-muda/" rel="alternate" type="text/html" />
+    <published>2020-05-06T11:38:00-03:00</published>
+    <updated>2020-05-06T11:38:00-03:00</updated>
+  </entry>
   <entry xml:lang="en">
     <id>/blog/fun-fact/</id>
     <title>Fun fact.</title>
